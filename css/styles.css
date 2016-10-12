@@ -124,11 +124,25 @@ h1 {
     color: #536878;  /* 'Dark electric blue' */
     text-align: center;
 }
+h1.heading-home{
+    color: orange;
+}
 h2.cafes {
     color: #6f4e37;
 }
 h2.pubs {
     color: #cd7f32;
+}
+
+.nav-wrapper {
+    text-align: center;
+}
+.nav-wrapper ul {
+    list-style: none;
+}
+.nav-wrapper ul li {
+    display: inline-block;
+    margin-right: 1em;
 }
 
 .cafe h3{
